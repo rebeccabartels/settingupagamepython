@@ -1,0 +1,15 @@
+stage.set_background("drawbridge")
+
+sprite = codesters.Sprite("dragon", 0, -75)
+
+word = "python"
+
+secret_letters = list(word)
+
+sprite.say("Guess my word and you can cross!")
+
+stage.wait(2)
+
+sprite.say("After each letter you can guess! But don't take too long!")
+
+stage.wait(2)
